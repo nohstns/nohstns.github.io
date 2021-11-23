@@ -1,0 +1,41 @@
+h1 {
+  color: #000000;
+  font-family: 'Wire One', sans-serif;
+}
+
+body{
+  background-color: #ECECEC;
+  text-align: justify;
+  font-family: 'Source Code Pro', monospace;
+}
+
+p{
+  color: #000000;
+}
+
+a{
+  color: #8b0000;
+  font-weight: bold;
+}
+
+.title{
+  text-align: left;
+}
+
+.introduction{
+  width: 500px;
+  background-color: #FFFFFF;
+  padding: 20px
+}
+
+.links{
+  text-align: left;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
