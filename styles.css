@@ -1,12 +1,64 @@
 h1 {
   color: #000000;
   font-family: 'Wire One', sans-serif;
+  font-size: 30px;
+  font-size: 3.5vw;
+}
+
+h2 {
+  color: #000000;
+  font-family: 'Wire One', sans-serif;
+  font-size: 24px;
+  font-size: 2.8vw;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 30%;
+  height: auto;
+}
+
+.icon {
+  display: inline-block;
+  background: none;
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+}
+
+
+.icon:after {
+  content: "";
+  display: block;
+}
+
+
+
+.icon:hover {
+  background: white;
+
+}
+
+header{
+  text-align: center;
+  padding: 30px 50px 30px 50px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+
+
 }
 
 body{
   background-color: #ECECEC;
   text-align: justify;
   font-family: 'Source Code Pro', monospace;
+  font-size: small;
+  height: 100%;
 }
 
 p{
@@ -14,28 +66,46 @@ p{
 }
 
 a{
-  color: #8b0000;
+  color: #97C15C;
+}
+
+a:hover {
   font-weight: bold;
+
 }
 
-.title{
-  text-align: left;
+.highlightme {
+  background-color:#3F612D;
 }
 
-.introduction{
-  width: 500px;
-  background-color: #FFFFFF;
-  padding: 20px
-}
-
-.links{
-  text-align: left;
-}
-
-nav {
+.column {
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
+  padding: 10px;
+  min-height: 100%;
+  margin: 0 auto -50px;
 }
+
+.column.side {
+  width: 25%;
+  text-align: right;
+}
+
+
+.column.middle {
+  width: 50%;
+  background-color: whitesmoke;
+  padding-bottom: 5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
