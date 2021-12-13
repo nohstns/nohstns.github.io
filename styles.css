@@ -54,9 +54,9 @@ footer{
 }
 
 body{
-  background-color: #ECECEC;
+  background-color: #F7F7F7;
   text-align: justify;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Open Sans', sans-serif;
   font-size: small;
   height: 100%;
 }
@@ -71,7 +71,13 @@ a{
 
 a:hover {
   font-weight: bold;
+  background-color: white;
 
+}
+
+emph{
+  color:#3F612D;
+  font-weight: bold;
 }
 
 .highlightme {
