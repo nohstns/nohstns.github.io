@@ -1,0 +1,168 @@
+html{
+  font-size: 12px;
+}
+
+/* Layout */
+
+.wrapper {
+  margin: auto;
+  width: 70%;
+}
+
+main{
+  display: inline-flex;
+  flex-flow: row wrap;
+  background-color: whitesmoke;
+  margin:0 10%;
+  padding: 0 1.5rem;
+}
+
+main img{
+  max-width: 30%;
+}
+
+#about-me-title{
+  display: inline-flex;
+  margin-left: -20%;
+  width: inherit;
+}
+
+#about-me-title h2{
+  flex: 1;
+  align-self: flex-end;
+  margin: 0 3.5rem;
+}
+
+#side-img-container{
+  max-width: 12%;
+  height: fit-content;
+  flex: 1;
+}
+
+#side-img-container img{
+  max-width: 100%;
+  /* height: auto;*/
+}
+
+
+
+
+header{
+  display: block;
+  height: fit-content;
+  border-bottom: 1px solid white;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 10%;
+}
+
+footer{
+  display: block;
+  height: fit-content;
+  border-top: 1px solid white;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 10%;
+}
+
+body{
+  background-color: white;
+  text-align: justify;
+  font-family: 'Helvetica', 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: small;
+  height: 100%;
+}
+
+
+.text-block{
+  margin: 0 1rem;
+}
+
+#about-me figure {
+  display: flex;
+  justify-content: center;
+}
+/* Elements */
+
+h1 {
+  color: #000000;
+  font-family: 'Wire One', sans-serif;
+  font-size: 30px;
+  font-size: 3.5rem;
+}
+
+h2 {
+  color: #000000;
+  font-family: 'Wire One', sans-serif;
+  font-size: 24px;
+  font-size: 2.8rem;
+}
+
+p{
+  color: #000000;
+}
+
+a{
+  color: #97C15C;
+}
+
+a:hover {
+  background-color: white;
+
+}
+
+emph{
+  color: #97C15C;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.fa{
+  color: whitesmoke;
+  border-radius: 50%;
+  padding: .5rem;
+  background-color: #97C15C;
+}
+
+.fa:hover{
+  color: white;
+}
+
+
+.highlightme {
+  background-color:#3F612D;
+}
+
+footer p{
+  font-size: .75rem;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #side-img-container img{
+    display: none;
+  }
+  #about-me-title {
+    display: inline;
+    margin-left: 0;
+    width: auto;
+}
+
+  #about-me-title h2 {
+    flex: 0;
+    align-self: auto;
+    margin: 0;
+}
+}
+

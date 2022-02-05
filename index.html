@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Nafal Ossandón Hostens</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="resources/css/styles.css" type="text/css">
 
     <meta name="description" content="Nafal Ossandón Hostens">
 
@@ -16,71 +16,63 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Wire+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Source+Code+Pro:wght@200&family=Wire+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+
   </head>
 
   <body>
+  <div class="wrapper">
 
    <!----------------------Header-------------------->
   <header>
     <h1>Nafal Ossandón Hostens</h1>
-    <div class="icon"><a href="http://www.twitter.com/nohstns/" target="_blank"><img src="./img/iconmonstr-twitter-4-240.png" alt="Light green twitter logo" style="max-width: 100%"/></a></div>
-    <div class="icon"><a href="https://www.linkedin.com/in/nohstns/" target="_blank"><img src="./img/iconmonstr-linkedin-4-240.png" alt="Light green LinkedIn logo" style="max-width: 100%"/></a></div>
-    <div class="icon"><a href="https://github.com/nohstns" target="_blank"><img src="./img/iconmonstr-github-1-240.png" alt="Light green GitHub logo" style="max-width: 100%"/></a></div>
-    <div class="icon"><a href="https://liberalarts.utexas.edu/germanic/GradStudents/profile.php?id=no4325" target="_blank"><img src="./img/iconmonstr-bank-1-240-2.png" alt="Light green University icon linking to Nafal's UT profile" style="max-width: 100%"/></a></div>
-    <div class="icon"><a href="mailto:nohstns@utexas.edu" target="_blank"><img src="./img/iconmonstr-email-10-240.png" alt="Light green Email icon" style="max-width: 100%"/></a></div>
+    <nav>
+      <a href="http://www.twitter.com/nohstns/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/nohstns/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+      <a href="https://github.com/nohstns" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://liberalarts.utexas.edu/germanic/GradStudents/profile.php?id=no4325" target="_blank"><i class="fa fa-university fa-2x"></i></a>
+      <a href="mailto:nohstns@utexas.edu" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+  </nav>
 
   </header>
-
-    <!---------------------- Navigation-------------------->
- <!--
-  <nav>
-      <div class="w3-bar">
-        <a class="w3-button w3-light-green" href="/">Home</a>
-        <a class="w3-button w3-light-green w3-disabled" href="/cv.pdf">CV</a>
-        <a class="w3-button w3-light-green w3-disabled" href="/#presentations">Presentations</a>
-      </div>
-
-      <ul>
-         <li><a href="./">Home</a></li>
-         <li><a href="./cv.pdf">News</a></li>
-         <li><a href="./#presentations">Presentations</a></li>
-      </ul>
-
-    </nav>
-  -->
    <!----------------------Main Content-------------------->
+    <main>
+      <section id="about-me-title">
+        <div id="side-img-container">
+        <img src="resources/img/nafal.jpg" alt="Profile picture of Nafal">
+      </div>
+        <h2>About Me</h2>
+      </section>
 
-  <div class="row">
-    <div class="column side">
-      <img src="./img/nafal.jpg" alt="Profile picture of Nafal">
-    </div>
+      <section class="text-block" id="about-me">
+        <p>Hi! I'm a first-year PhD student at the department of <a href ="https://liberalarts.utexas.edu/germanic/index.php"
+              target= "_blank">Germanic Studies</a> at the University of Texas at Austin.
+        </p>
+        <p>I have an MA in Computational Psycholinguistics from the University of Antwerp, where I worked under the supervision of
+          <a href="https://www.uantwerpen.be/en/staff/sarah-bernolet/">professor Sarah Bernolet</a> and
+          <a href="https://research.flw.ugent.be/nl/orphee.declercq">professor Orphée De Clercq</a> from Ghent University on the automatic assessment of the syntactic complexity of texts written by learners of Dutch as a second language. Before that, I studied German, English and
+              Spanish Linguistics and Literature at Ghent University.
+        </p>
+        <p>My favorite acronyms are <emph>SLA</emph> – Second Language Acquisition, and <emph>NLP</emph> – Natural Language Processing. I'm interested in Language Pedagogy and the application of SLA theories in the development of Computer-Assisted Language Learning tools, the psycholinguistic study of SLA and its analysis with the use of computational tools, automatic proficiency and readability assessement and the linguistic representations and structures behind modern language models.</p>
+        <p>I have more hobbies than time allows, but among them I count running, (trying to) longboard, reading, watercolor painting and improving my coding skills. I also spend a significant amount of time with my cat Luke and my ferret Chewie. </p>
+        <figure>
+          <img src="resources/img/avatar.JPG" alt="Avatar drawing of Nafal"/>
+        </figure>
+      </section>
 
-    <div class="column middle">
-      <h2>About Me</h2>
-      <p>Hi! I'm a first-year PhD student at the department of <a href ="https://liberalarts.utexas.edu/germanic/index.php"
-            target= "_blank">Germanic Studies</a> at the University of Texas at Austin.
-      </p>
-      <p>I have an MA in Computational Psycholinguistics from the University of Antwerp, where I worked under the supervision of
-        <a href="https://www.uantwerpen.be/en/staff/sarah-bernolet/">professor Sarah Bernolet</a> and
-        <a href="https://research.flw.ugent.be/nl/orphee.declercq">professor Orphée Declercq</a> from Ghent University. Before that, I studied German, English and
-            Spanish Linguistics and Literature at Ghent University.
-      </p>
-      <p>My favorite acronyms are <emph>SLA</emph> – Second Language Acquisition, and <emph>NLP</emph> – Natural Language Processing. I'm interested in Language Pedagogy and the application of SLA theories in the development of Computer-Assisted Language Learning tools for German, the psycholinguistic study of SLA and its analysis with the use of computational tools, and automatic proficiency and readability assessement.</p>
-      <p>I have more hobbies than time allows, but among them I count running, (trying to) longboard, reading and watercolor painting. I also dedicate a significant amount of time with my cat Luke. </p>
-      <div style="text-align: center;"><img src="./img/avatar.JPG" alt="Avatar drawing of Nafal"/></div>
-      <h2>Presentations</h2>
-      <ul>
-        <li>Poster presentation at CLIN 31 (2021): <i>Assessing Dutch as a Second Language Learners’ Writing Through Syntactic Complexity</i></li>
-      </ul>
+      <section class="text-block" id="presentations">
+        <h2>Presentations</h2>
+        <ul>
+          <li>Poster presentation @ CLIN 31 (2021): <i>Assessing Dutch as a Second Language Learners’ Writing Through Syntactic Complexity</i></li>
+        </ul>
+      </section>
 
+    </main>
+      <footer>
+        <p>Last updated on February 4th, 2022 | © Nafal Ossandón Hostens</p>
+      </footer>
   </div>
-
-  <div class="column side">
-    <p></p>
-  </div>
-
-    <footer>
-      <p></p>
-    </footer>
   </body>
 </html>
