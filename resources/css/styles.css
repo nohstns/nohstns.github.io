@@ -27,16 +27,13 @@ main img{
   width: inherit;
 }
 
-#about-me-title h2{
-  flex: 1;
-  align-self: flex-end;
-  margin: 0 3.5rem;
-}
+
 
 #side-img-container{
-  max-width: 12%;
+  max-width: 8%;
   height: fit-content;
   flex: 1;
+  position:absolute;
 }
 
 #side-img-container img{
@@ -149,7 +146,7 @@ footer p{
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   #side-img-container img{
     display: none;
   }
